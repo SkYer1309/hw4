@@ -12,7 +12,9 @@ public class Main {
                     "нужно немного подождать \n");
         }
         System.out.println("Задание 2\n");
+
         System.out.println("Задание 3\n");
+
         System.out.println("Задание 4\n");
         System.out.println("Задание 5\n");
     }
