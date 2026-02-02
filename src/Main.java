@@ -21,6 +21,8 @@ public class Main {
 
         System.out.println("Задание 6\n");
 
+        System.out.println("Задание 7\n");
+
 
     }
 }
