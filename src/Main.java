@@ -10,7 +10,7 @@ public class Main {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершенноллетия\n" +
                     "нужно немного подождать\n");
         }
-        System.out.println("Задание 2\n");
+        System.out.println("Задание 2 \n");
         byte temp = -20;
         if (temp < 5) {
             System.out.println("На улице " + temp + " градусов нужно надеть шапку\n");
