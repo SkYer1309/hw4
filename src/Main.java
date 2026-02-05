@@ -7,7 +7,7 @@ public class Main {
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
         }
-        if (age < 18) {
+       else if (age < 18) {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершенноллетия \n" +
                     "нужно немного подождать \n");
         }
@@ -26,27 +26,27 @@ public class Main {
             System.out.println("Можно ездитьспокойно\n");
         }
         System.out.println("Задание 4\n");
-        byte age2 = 45;
-        if (age2 >= 2 && age2 < 7) {
-            System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад\n");
-        } else if (age2 >= 7 && age2 < 18) {
-            System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в школу\n");
-        } else if (age2 >= 18 && age2 <= 24) {
-            System.out.println("Если возраст человека равен " + age2 + ", то его место в университете\n");
-        } else if (age2 > 24) {
-            System.out.println("Если возраст человека равен " + age2 + ", то ему пора ходить на работу\n");
+        byte agePerson = 45;
+        if (agePerson >= 2 && agePerson < 7) {
+            System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в детский сад\n");
+        } else if (agePerson >= 7 && agePerson < 18) {
+            System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в школу\n");
+        } else if (agePerson >= 18 && agePerson <= 24) {
+            System.out.println("Если возраст человека равен " + agePerson + ", то его место в университете\n");
+        } else if (agePerson > 24) {
+            System.out.println("Если возраст человека равен " + agePerson + ", то ему пора ходить на работу\n");
         } else {
             System.out.println("введён не корректный возраст\n");
         }
         System.out.println("Задание 5\n");
-        byte age3 = 16;
-        if (age3 < 5) {
-            System.out.println("Если ребёнку " + age3 + ", то он не может кататься на атракционе\n");
-        } else if (age3 >= 5 && age3 <= 14) {
-            System.out.println("Если ребёнку " + age3 + ", то он может кататься\n" +
+        byte ageChildren = 16;
+        if (ageChildren < 5) {
+            System.out.println("Если ребёнку " + ageChildren + ", то он не может кататься на атракционе\n");
+        } else if (ageChildren >= 5 && ageChildren <= 14) {
+            System.out.println("Если ребёнку " + ageChildren + ", то он может кататься\n" +
                     "только в сопровождении взрослого\n");
         } else {
-            System.out.println("Если ребенку " + age3 + ", то он может кататья без сопровождения\n");
+            System.out.println("Если ребенку " + ageChildren + ", то он может кататья без сопровождения\n");
         }
         System.out.println("Задание 6\n");
         int tickets = 40;
